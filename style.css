@@ -16,3 +16,11 @@
     text-align: center;
     border-radius: 10px;
 }
+
+.card img {
+transition: transform 0.3s ease,filter 0.3s ease;
+}
+
+.card img:hover{
+    transform: scale(1.05);
+}
